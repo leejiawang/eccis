@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentations on ECCIS</title>
+    <link>/documentation/</link>
+    <description>Recent content in Documentations on ECCIS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNS 列表</title>
+      <link>/documentation/dns/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/dns/</guid>
+      <description>DNS，是英语 Domain Name System 的首字母缩写，中文名为域名系统。
+ 域名系统是互联网的一项服务。它作为将域名和 IP 地址相互映射的一个分布式数据库，能够使人更方便地访问互联网。DNS 使用 TCP 和 UDP 端口 53。当前，对于每一级域名长度的限制是 63 个字符，域名总长度则不能超过 253 个字符1。
+ 修改 DNS 方法 Windows 系统
+ 打开 控制面板，依次点击网络和Internet、以太网、属性，双击 TCP/IPv4，选择自定义 DNS，修改并确定。
+使用快捷键 Win+R 打开运行 cmd，输入ipconfig /flushdns后回车以刷新下 DNS 缓存。
+ macOS 系统
+ 打开 系统偏好设置，依次点击 网络、高级、DNS 选项卡，在左侧窗口中修改并确定。
+ Linux 系统
+ 使用命令 vim /etc/resolv.conf，将首选 nameserver 修改并确定。
+ 常用 DNS Google DNS 
+ 8.8.8.8 / 8.8.4.4
+ 腾讯 DNS 
+ 119.</description>
+    </item>
+    
+    <item>
+      <title>Git 基础语法</title>
+      <link>/documentation/git/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/git/</guid>
+      <description>Git 是一个免费开源的分布式版本控制系统，旨在快速高效地处理从小型到大型项目的所有内容。具有廉价的本地分支，方便的暂存区域和多个工作流等功能。
+ 相关站点  https://git-scm.com  https://www.runoob.com/git/git-tutorial  https://github.com/git
+全局设置 git config --global user.name &amp;quot;XXX&amp;quot; git config --global user.email &amp;quot;XXX@gmail.com&amp;quot;  创建一个新仓库 git clone git@gitlab.com:XXX/XXXX.git cd XXX touch README.md git add README.md git commit -m &amp;quot;add README&amp;quot; git push -u origin master  推送现有文件夹 cd XXXX git init git remote add origin git@github.com:XXX/XXXX.git git add . git commit -m &amp;quot;XXXX&amp;quot; git push -u origin master  推送现有的 Git 仓库 cd XXXX git remote rename origin old-origin git remote add origin git@github.</description>
+    </item>
+    
+    <item>
+      <title>Markdown 基础语法</title>
+      <link>/documentation/markdown/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/markdown/</guid>
+      <description>Markdown 是一种轻量级标记语言，她轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，语法也极其简单易学。
+ Markdown 的创始人为约翰·格鲁伯 John Gruber。它允许使用易读易写的纯文本格式编写文档，然后转换成有效的HTML文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性1，目前许多网站都广泛使用 Markdown 来撰写说明文件或是用于论坛上发表讯息。
+ 标题 输入
+### 标题3 eyecus #### 标题4 eyecus ##### 标题5 eyecus ###### 标题6 eyecus  输出
+标题3 eyecus 标题4 eyecus 标题5 eyecus 标题6 eyecus 文本 输入
+正常文本 eyecus **粗体 eyecus** *斜体 eyecus* ~~删除线 eyecus~~ [链接 eyecus](https://eyecus.com)  输出
+正常文本 eyecus
+粗体 eyecus
+斜体 eyecus
+删除线 eyecus
+链接 eyecus
+列表 输入
+1. 正常文本1 eyecus 1. 正常文本2 eyecus 1. 正常文本3 eyecus  输出</description>
+    </item>
+    
+  </channel>
+</rss>
